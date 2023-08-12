@@ -79,13 +79,17 @@ const controlAddBookmark = function () {
   console.log(model.state.bookmarks);
 };
 
+const newFeature = function () {
+  console.log('Welcome to the APP!');
+};
+
 const init = function () {
   recipeView.addHandlerRender(controlRecipes);
   recipeView.addHandlerUpdateServing(controlServings);
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
   recipeView.addHandlerAddBookmark(controlAddBookmark);
-  console.log('Welcome');
+  newFeature();
 };
 
 init();
