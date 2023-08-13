@@ -92,6 +92,7 @@ const init = function () {
   newFeature();
 };
 
+console.log('Welcome to github');
 init();
 
 // window.addEventListener('hashchange', controlRecipes);
